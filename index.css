@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.note_btn{
+    height: 40px;
+    width: 100px;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    background-color: #2d3436;
+    color: white;
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+}
+
+.main_container{
+    width: 100vw;
+    height:auto;
+    min-height: 100vh;
+    background-color: #81ecec;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.note_box{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    margin: 60px;
+    border: none;
+    border-radius: 20px 20px 20px 20px ;
+}
+
+.tool{
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.tool i{
+    padding: 5px;
+    cursor: pointer;
+}
+
+.note_box textarea{
+    height: inherit;
+    width: inherit;
+    border: 0;
+    outline: 0;
+    resize: none;
+    font-size: 25px;
+    border: none;
+    border-radius: 20px 20px 20px 20px ;
+    font-family:  sans-serif;
+    font-family: 'Dancing Script', cursive;
+    padding: 10px;
+}
